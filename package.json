@@ -1,0 +1,25 @@
+{
+  "name": "dust-hyperclick",
+  "main": "./lib/dust-hyperclick",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "repository": "https://github.com/atom/dust-hyperclick",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "moduleRoots": [
+    "lib"
+  ],
+  "providedServices": {
+    "hyperclick.provider": {
+      "versions": {
+        "0.0.0": "getHyperclickProvider"
+      }
+    }
+  },
+  "dependencies": {
+  }
+}

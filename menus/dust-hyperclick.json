@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle dust-hyperclick",
+        "command": "dust-hyperclick:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "dust-hyperclick",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "dust-hyperclick:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
